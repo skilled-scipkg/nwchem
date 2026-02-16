@@ -1,0 +1,138 @@
+# nwchem documentation map: Web
+
+Generated from documentation roots:
+- `doc`
+- `web`
+- `src/basis/doc`
+- `src/peigs/doc`
+- `src/rimp2_grad/doc`
+- `src/mrpt/fci/doc`
+- `examples`
+- `web/training`
+- `web/support/examples`
+- `QA`
+- `contrib/mov2asc/test`
+- `src/cca/tests`
+- `src/chelp/test`
+- `src/fft/test`
+- `src/mm/test`
+- `src/python/tests`
+- `src/rism/QA`
+- `src/rism/tests`
+- `src/smd/test`
+- `contrib/marat/rdf/test`
+- `contrib/marat/swap/test`
+
+Total docs grouped in this topic: 110
+
+## File inventory
+- `web/index.html` | title: Index | headings: (no heading extracted)
+- `web/release-notes/index.html` | title: Index | headings: (no heading extracted)
+- `web/nwchem-support/index.html` | title: Index | headings: (no heading extracted)
+- `web/benchmarks/index.html` | title: Index | headings: (no heading extracted)
+- `web/applications/index.html` | title: Index | headings: (no heading extracted)
+- `web/doc/user.4.6/index.html` | title: Index | headings: (no heading extracted)
+- `web/doc/user.4.6/node37.html` | title: H | headings: H; Na Mg                               Al Si P  S Cl; K          Ti          Fe     Cu Zn Ga Ge As
+- `web/doc/user.4.6/node29.html` | title: HeP.mo are the vectors for He(+), | headings: HeP.mo are the vectors for He(+),; He.mo  are the vectors for neutral He.; Electron Transfer Calculation
+- `web/search_nwchem.html` | title: Search Nwchem | headings: (no heading extracted)
+- `web/return_users.html` | title: Return Users | headings: (no heading extracted)
+- `web/nwchem_main.html` | title: Nwchem Main | headings: (no heading extracted)
+- `web/nwchem_index.html` | title: Nwchem Index | headings: (no heading extracted)
+- `web/downloadwop.html` | title: Downloadwop | headings: (no heading extracted)
+- `web/download.html` | title: Download | headings: (no heading extracted)
+- `web/disclaimer.html` | title: Disclaimer | headings: (no heading extracted)
+- `web/contributors.html` | title: Contributors | headings: (no heading extracted)
+- `web/citation.html` | title: Citation | headings: (no heading extracted)
+- `web/availability.html` | title: Availability | headings: (no heading extracted)
+- `web/training/training.html` | title: Training | headings: (no heading extracted)
+- `web/support/support.html` | title: Support | headings: (no heading extracted)
+- `web/support/offsite.html` | title: Offsite | headings: (no heading extracted)
+- `web/support/nwchem_report.html` | title: Nwchem Report | headings: (no heading extracted)
+- `web/support/nwchem.users.051999.html` | title: Nwchem Users 051999 | headings: (no heading extracted)
+- `web/support/known_bugs.html` | title: Known Bugs | headings: (no heading extracted)
+- `web/support/known_bugs.4.7.html` | title: Known Bugs 4 7 | headings: (no heading extracted)
+- `web/support/known_bugs.4.6.html` | title: Known Bugs 4 6 | headings: (no heading extracted)
+- `web/support/known_bugs.4.5.html` | title: Known Bugs 4 5 | headings: (no heading extracted)
+- `web/support/known_bugs.4.5.beta.html` | title: Known Bugs 4 5 Beta | headings: (no heading extracted)
+- `web/support/known_bugs.4.1.html` | title: Known Bugs 4 1 | headings: (no heading extracted)
+- `web/support/known_bugs.4.0.html` | title: Known Bugs 4 0 | headings: (no heading extracted)
+- `web/support/known_bugs.3.3.html` | title: Known Bugs 3 3 | headings: (no heading extracted)
+- `web/support/known_bugs.3.2.html` | title: Known Bugs 3 2 | headings: (no heading extracted)
+- `web/release-notes/release.notes.5.1.html` | title: Release Notes 5 1 | headings: (no heading extracted)
+- `web/release-notes/release.notes.5.0.html` | title: Release Notes 5 0 | headings: (no heading extracted)
+- `web/release-notes/release.notes.4.7.html` | title: Release Notes 4 7 | headings: (no heading extracted)
+- `web/release-notes/release.notes.4.6.html` | title: Release Notes 4 6 | headings: (no heading extracted)
+- `web/release-notes/release.notes.4.5.html` | title: Release Notes 4 5 | headings: (no heading extracted)
+- `web/release-notes/release.notes.4.1.html` | title: Release Notes 4 1 | headings: (no heading extracted)
+- `web/release-notes/release.notes.4.0.html` | title: Release Notes 4 0 | headings: (no heading extracted)
+- `web/release-notes/release.notes.3.3.1.html` | title: Release Notes 3 3 1 | headings: (no heading extracted)
+- `web/release-notes/index.html.4.7.html` | title: Index Html 4 7 | headings: (no heading extracted)
+- `web/platforms/platforms.html` | title: Platforms | headings: (no heading extracted)
+- `web/nwchem-support/search_nwchem_support.html` | title: Search Nwchem Support | headings: (no heading extracted)
+- `web/capabilities/nwchem_capab.html` | title: Nwchem Capab | headings: (no heading extracted)
+- `web/capabilities/nwchem_capab.5.1.html` | title: Nwchem Capab 5 1 | headings: (no heading extracted)
+- `web/capabilities/nwchem_capab.5.0.html` | title: Nwchem Capab 5 0 | headings: (no heading extracted)
+- `web/capabilities/nwchem_capab.4.7.html` | title: Nwchem Capab 4 7 | headings: (no heading extracted)
+- `web/capabilities/nwchem_capab.4.5.html` | title: Nwchem Capab 4 5 | headings: (no heading extracted)
+- `web/capabilities/nwchem_capab.4.1.html` | title: Nwchem Capab 4 1 | headings: (no heading extracted)
+- `web/capabilities/nwchem_capab.4.0.1.html` | title: Nwchem Capab 4 0 1 | headings: (no heading extracted)
+- `web/capabilities/nwchem_capab.3.3.1.html` | title: Nwchem Capab 3 3 1 | headings: (no heading extracted)
+- `web/applications/hiv1_int.html` | title: Hiv1 Int | headings: (no heading extracted)
+- `web/applications/gfp.html` | title: Gfp | headings: (no heading extracted)
+- `web/applications/ache.html` | title: Ache | headings: (no heading extracted)
+- `web/doc/user.4.6/node5.html` | title: Contents of RTDB h2o.db | headings: Contents of RTDB h2o.db
+- `web/doc/user.4.6/node42.html` | title: Final RHF  results | headings: Final RHF  results
+- `web/doc/user.4.6/node13.html` | title: Calculation failed to converge | headings: Calculation failed to converge
+- `web/training/simple/s2-lcao.html` | title: S2 Lcao | headings: (no heading extracted)
+- `web/doc/user.4.6/user.search.html` | title: User Search | headings: (no heading extracted)
+- `web/doc/user.4.6/user.html` | title: User | headings: (no heading extracted)
+- `web/doc/user.4.6/node9.html` | title: Node9 | headings: (no heading extracted)
+- `web/doc/user.4.6/node8.html` | title: Node8 | headings: (no heading extracted)
+- `web/doc/user.4.6/node7.html` | title: Node7 | headings: (no heading extracted)
+- `web/doc/user.4.6/node6.html` | title: Node6 | headings: (no heading extracted)
+- `web/doc/user.4.6/node45.html` | title: Node45 | headings: (no heading extracted)
+- `web/doc/user.4.6/node43.html` | title: Node43 | headings: (no heading extracted)
+- `web/doc/user.4.6/node41.html` | title: Node41 | headings: (no heading extracted)
+- `web/doc/user.4.6/node40.html` | title: Node40 | headings: (no heading extracted)
+- `web/doc/user.4.6/node4.html` | title: Node4 | headings: (no heading extracted)
+- `web/doc/user.4.6/node39.html` | title: Node39 | headings: (no heading extracted)
+- `web/doc/user.4.6/node38.html` | title: Node38 | headings: (no heading extracted)
+- `web/doc/user.4.6/node36.html` | title: Node36 | headings: (no heading extracted)
+- `web/doc/user.4.6/node35.html` | title: Node35 | headings: (no heading extracted)
+- `web/doc/user.4.6/node34.html` | title: Node34 | headings: (no heading extracted)
+- `web/doc/user.4.6/node33.html` | title: Node33 | headings: (no heading extracted)
+- `web/doc/user.4.6/node32.html` | title: Node32 | headings: (no heading extracted)
+- `web/doc/user.4.6/node31.html` | title: Node31 | headings: (no heading extracted)
+- `web/doc/user.4.6/node30.html` | title: Node30 | headings: (no heading extracted)
+- `web/doc/user.4.6/node3.html` | title: Node3 | headings: (no heading extracted)
+- `web/doc/user.4.6/node28.html` | title: Node28 | headings: (no heading extracted)
+- `web/doc/user.4.6/node27.html` | title: Node27 | headings: (no heading extracted)
+- `web/doc/user.4.6/node26.html` | title: Node26 | headings: (no heading extracted)
+- `web/doc/user.4.6/node25.html` | title: Node25 | headings: (no heading extracted)
+- `web/doc/user.4.6/node24.html` | title: Node24 | headings: (no heading extracted)
+- `web/doc/user.4.6/node23.html` | title: Node23 | headings: (no heading extracted)
+- `web/doc/user.4.6/node22.html` | title: Node22 | headings: (no heading extracted)
+- `web/doc/user.4.6/node21.html` | title: Node21 | headings: (no heading extracted)
+- `web/doc/user.4.6/node20.html` | title: Node20 | headings: (no heading extracted)
+- `web/doc/user.4.6/node2.html` | title: Node2 | headings: (no heading extracted)
+- `web/doc/user.4.6/node19.html` | title: Node19 | headings: (no heading extracted)
+- `web/doc/user.4.6/node18.html` | title: Node18 | headings: (no heading extracted)
+- `web/doc/user.4.6/node17.html` | title: Node17 | headings: (no heading extracted)
+- `web/doc/user.4.6/node16.html` | title: Node16 | headings: (no heading extracted)
+- `web/doc/user.4.6/node15.html` | title: Node15 | headings: (no heading extracted)
+- `web/doc/user.4.6/node14.html` | title: Node14 | headings: (no heading extracted)
+- `web/doc/user.4.6/node11.html` | title: Node11 | headings: (no heading extracted)
+- `web/doc/user.4.6/node10.html` | title: Node10 | headings: (no heading extracted)
+- `web/doc/user.4.6/node1.html` | title: Node1 | headings: (no heading extracted)
+- `web/doc/user.4.6/indexj.html` | title: Indexj | headings: (no heading extracted)
+- `web/doc/user.4.6/footnode.html` | title: Footnode | headings: (no heading extracted)
+- `web/doc/user.4.6/contents.html` | title: Contents | headings: (no heading extracted)
+- `web/benchmarks/peigs/peigs.html` | title: Peigs | headings: (no heading extracted)
+- `web/benchmarks/dft/back.html` | title: Back | headings: (no heading extracted)
+- `web/benchmarks/ddscf/ddscf.html` | title: Ddscf | headings: (no heading extracted)
+- `web/benchmarks/ddscf/bench.html` | title: Bench | headings: (no heading extracted)
+- `web/doc/peigs/docs/platforms.html` | title: Platforms | headings: (no heading extracted)
+- `web/doc/peigs/docs/peigs3.html` | title: Peigs3 | headings: (no heading extracted)
+- `web/doc/peigs/docs/peigs.html` | title: Peigs | headings: (no heading extracted)
+- `web/doc/peigs/docs/distribution.html` | title: Distribution | headings: (no heading extracted)
+- `web/doc/peigs/docs/dependence.html` | title: Dependence | headings: (no heading extracted)

@@ -1,0 +1,120 @@
+{
+  "compiled_package_id": "nwchem",
+  "evidence": {
+    "core_skills": [
+      "nwchem-web",
+      "nwchem-nwahtml",
+      "nwchem-qa",
+      "nwchem-troubleshooting",
+      "nwchem-inputs-and-modeling",
+      "nwchem-examples-and-tutorials"
+    ],
+    "evidence_dir": "skills/.evidence",
+    "files": [
+      "skills/.evidence/nwchem-web.md",
+      "skills/.evidence/nwchem-nwahtml.md",
+      "skills/.evidence/nwchem-qa.md",
+      "skills/.evidence/nwchem-troubleshooting.md",
+      "skills/.evidence/nwchem-inputs-and-modeling.md",
+      "skills/.evidence/nwchem-examples-and-tutorials.md"
+    ]
+  },
+  "generation": {
+    "docs_only": false,
+    "generator_script": "sci-skills-generator/scripts/generate_skills_folder.py",
+    "max_skills": 30,
+    "return_code": 0,
+    "status": "ok"
+  },
+  "passes": [
+    {
+      "pass": 1,
+      "return_code": 0,
+      "status": "ok"
+    },
+    {
+      "pass": 2,
+      "return_code": 0,
+      "status": "ok"
+    },
+    {
+      "pass": 3,
+      "return_code": 0,
+      "status": "ok"
+    }
+  ],
+  "profile": {
+    "docs_dirs": [
+      "doc",
+      "web",
+      "src/basis/doc",
+      "src/mrpt/fci/doc",
+      "src/peigs/doc",
+      "src/rimp2_grad/doc"
+    ],
+    "docs_only": false,
+    "notes": [
+      "Primary regression coverage lives in QA with additional module tests under src and contrib.",
+      "The doc tree includes legacy manuals and HTML content; doc/README.md marks it as obsolete in favor of the project wiki.",
+      "Top-level documentation files (README.md, INSTALL, release.notes.*) are outside docs_dirs and should still be referenced during enrichment."
+    ],
+    "package_name": "nwchem",
+    "profile_path": "skills/.compile_profile.json",
+    "profile_source": "file",
+    "source_dirs": [
+      "src",
+      "contrib"
+    ],
+    "test_dirs": [
+      "QA",
+      "src/cca/tests",
+      "src/chelp/test",
+      "src/fft/test",
+      "src/mm/test",
+      "src/python/tests",
+      "src/rism/QA",
+      "src/rism/tests",
+      "src/smd/test",
+      "contrib/marat/rdf/test",
+      "contrib/marat/swap/test",
+      "contrib/mov2asc/test"
+    ],
+    "tutorial_dirs": [
+      "examples",
+      "web/support/examples",
+      "web/training"
+    ],
+    "warnings": []
+  },
+  "project_root": "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/nwchem-nwchem",
+  "validation": {
+    "core_skills_checked": [
+      "nwchem-web",
+      "nwchem-nwahtml",
+      "nwchem-troubleshooting",
+      "nwchem-qa",
+      "nwchem-examples-and-tutorials",
+      "nwchem-src"
+    ],
+    "docs_only": false,
+    "errors": [
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/nwchem-nwchem/skills/nwchem-examples-and-tutorials/references/source_map.md: broken path references: .rst",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/nwchem-nwchem/skills/nwchem-web/SKILL.md: playbook missing required element containing 'convergence/validation'.",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/nwchem-nwchem/skills/nwchem-nwahtml/SKILL.md: playbook missing required element containing 'convergence/validation'.",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/nwchem-nwchem/skills/nwchem-troubleshooting/SKILL.md: playbook missing required element containing 'convergence/validation'.",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/nwchem-nwchem/skills/nwchem-qa/SKILL.md: playbook missing required element containing 'convergence/validation'.",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/nwchem-nwchem/skills/nwchem-examples-and-tutorials/SKILL.md: playbook missing required element containing 'convergence/validation'.",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/nwchem-nwchem/skills/nwchem-src/SKILL.md: playbook missing required element containing 'triage questions'.",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/nwchem-nwchem/skills/nwchem-src/SKILL.md: playbook missing required element containing 'pitfalls'.",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/nwchem-nwchem/skills/nwchem-src/SKILL.md: playbook missing required element containing 'convergence/validation'."
+    ],
+    "index_skills": [
+      "nwchem-index"
+    ],
+    "ok": false,
+    "skills_total": 10,
+    "source_links_total": 104,
+    "topic_skills": 9,
+    "warnings": []
+  }
+}

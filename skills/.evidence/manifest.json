@@ -1,0 +1,19 @@
+{
+  "core_skills": [
+    "nwchem-web",
+    "nwchem-nwahtml",
+    "nwchem-qa",
+    "nwchem-troubleshooting",
+    "nwchem-inputs-and-modeling",
+    "nwchem-examples-and-tutorials"
+  ],
+  "evidence_dir": "skills/.evidence",
+  "files": [
+    "skills/.evidence/nwchem-web.md",
+    "skills/.evidence/nwchem-nwahtml.md",
+    "skills/.evidence/nwchem-qa.md",
+    "skills/.evidence/nwchem-troubleshooting.md",
+    "skills/.evidence/nwchem-inputs-and-modeling.md",
+    "skills/.evidence/nwchem-examples-and-tutorials.md"
+  ]
+}
